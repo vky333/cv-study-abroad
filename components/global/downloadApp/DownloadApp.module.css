@@ -1,0 +1,31 @@
+.downloadApp {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.frmBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    max-height: 40px;
+}
+
+.frmBox span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #444;
+    background-color: #fff;
+    padding: 0.6rem 0.6rem;
+    border: 1px solid #ced4da;
+    border-right: 0;
+    border-radius: 5px 0px 0 5px;
+    display: flex;
+    align-items: center;
+}
+
+.frmBox .frmControl {
+    width: 50%;
+    border-radius: 0px 5px 5px 0px;
+    margin-right: 1rem;
+}

@@ -1,0 +1,39 @@
+.expertsSec {
+    background-color: #0d6efd;
+}
+
+.exportBtn {
+    width: 60%;
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;
+}
+
+.expertsCard ul {
+    margin: 0;
+    padding: 0;
+}
+
+.expertsCard ul li {
+    width: calc(33.33% - 6px);
+    margin: 3px;
+    display: flex;
+    border: #eee 2px solid;
+    border-radius: 5%;
+    overflow: hidden;
+    box-shadow: #666 0px 2px 5px;
+}
+
+.expertsSec h2 {
+    font-weight: 600;
+}
+
+.expertsSec h2,
+.expertsSec p {
+    color: #FFFF;
+}
+
+.expertsSec .textOrange {
+    color: #ffed00;
+    font-weight: bold;
+}

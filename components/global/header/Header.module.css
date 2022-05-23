@@ -1,0 +1,84 @@
+.headerContainer {
+    width: 100%;
+    position: absolute;
+    top: 1.5rem;
+    z-index: 2;
+}
+
+.headerBox {
+    display: flex;
+}
+
+.abroadLogo {
+    position: relative;
+    width: 85%;
+    margin-top: 0.7rem;
+}
+
+.abroadLogo .logCom {
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-18deg);
+    right: 0;
+    bottom: 1rem;
+    background-color: #0074d7;
+    color: #fff;
+    width: 25px;
+    font-size: 8px;
+    height: 25px;
+}
+
+.headerBtn {
+    margin-left: 2rem;
+}
+
+.headerBtn button {
+    padding: 0.2rem 1rem;
+}
+
+.headerNavBar {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: 90px;
+}
+
+.headerNavBar svg {
+    margin-right: 3px;
+    margin-top: -3px;
+}
+
+.menuTab {
+    margin-left: auto !important;
+    background: #0074d7;
+    border-radius: 25px;
+    padding: 0rem 1rem;
+}
+
+.navbar-brand {
+    padding-bottom: 0 !important;
+}
+
+.login_main {
+    border: #FFF 1px solid;
+    border-radius: 25px;
+}
+
+.headerContainer .login_main a {
+    /* color: #0074d7 !important; */
+    font-weight: 500;
+}
+
+.login_main:hover {
+    background-color: #0074d7;
+    transition: ease-in-out 0.5s;
+    border-radius: 25px;
+}
+
+.headerContainer .navbar-light .navbar-nav .text-white .nav-link:focus,
+.headerContainer .navbar-light .navbar-nav .text-white .nav-link:hover {
+    color: #fff !important;
+}

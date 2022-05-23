@@ -1,0 +1,289 @@
+/************ COUNTRY Section START *******************/
+
+.CountryContainer {
+    background: #fff url(/map-1.svg) bottom center no-repeat;
+    background-size: cover;
+    background-position: 0 3rem;
+}
+
+.box_01 .countryImage1 {
+    background: url(/country/usa.png) no-repeat;
+    background-size: cover;
+}
+
+.box_02 .countryImage1 {
+    background: url(/country/uk.png) no-repeat;
+    background-size: cover;
+}
+
+.box_03 .countryImage1 {
+    background: url(/country/germany.png) no-repeat;
+    background-size: cover;
+}
+
+.box_04 .countryImage1 {
+    background: url(/country/canada.png) no-repeat;
+    background-size: cover;
+}
+
+.box_05 .countryImage1 {
+    background: url(/country/austrliya.png) no-repeat;
+    background-size: cover;
+}
+
+.box_06 .countryImage1 {
+    background: url(/country/irland.png) no-repeat;
+    background-size: cover;
+}
+
+.ContAccordian {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.glBox {
+    width: 24%;
+    height: 370px;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: ease-in-out 0.8s;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.choice {
+    position: absolute;
+    background: rgb(255 255 255 / 75%);
+    padding: 2rem;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.choice h3 {
+    font-weight: 600;
+    font-size: 1.50rem;
+}
+
+.glBox:hover .choice {
+    visibility: visible;
+    transition: width 0.9s;
+    font-family: arial;
+}
+
+.glBox:hover {
+    width: 100%;
+    transition: ease-in-out 0.5s;
+    border: #ccc 1px solid;
+}
+
+.glBox:hover h1 {
+    display: none;
+}
+
+.cardText {
+    width: 70vh;
+    font-weight: 500;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.cardText ul {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+.countryImg {
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+}
+
+.countryImg h1 {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 7px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+/************ COUNTRY Section END *******************/
+
+
+/************ jOURNEY Section StART *******************/
+
+.jourSection {
+    width: 100%;
+    height: 100%;
+}
+
+.lineSlider {
+    background-color: #0074d7;
+    width: 4px;
+    height: 53vh;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    border-radius: 10px;
+    animation: mymove 8s;
+    transition: ease-in-out 0.5s;
+}
+
+.lineSlider::after {
+    content: "";
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    bottom: 0;
+    background: #ffa400;
+    left: -5px;
+    border-radius: 100%;
+}
+
+@keyframes mymove {
+    from {
+        height: 0px;
+    }
+    to {
+        height: 53vh;
+    }
+}
+
+.slideBox01 {
+    margin-top: 5rem;
+}
+
+.slideBox01 .row,
+.slideBox02 .row,
+.slideBox03 .row,
+.slideBox04 .row,
+.slideBox05 .row {
+    display: flex;
+    align-items: center;
+}
+
+.slideBox02 .jorBox,
+.slideBox04 .jorBox {
+    flex-direction: row-reverse;
+}
+
+.jorBox .jorRowBox {
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.jourSection .descriptionSection {
+    padding: 0 5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    font-family: arial;
+}
+
+.jourSection .descriptionSection h2 {
+    font-weight: 500;
+    line-height: normal !important;
+}
+
+.jourSection .descriptionSection h2 span {
+    color: #ffa400;
+    font-weight: 600;
+}
+
+.jourSection .imgSection {
+    border: 2px dashed #B7B8BD;
+    display: flex;
+    max-width: 500px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.imgJourney {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.imgJourney:hover {
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+
+/************ jOURNEY Section End *******************/
+
+
+/************ Accourdion Section Start *******************/
+
+.accordianSection {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #f5f8ff;
+}
+
+.accInnerBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordianSection .lftBox {
+    width: 55%;
+    margin-top: 2rem;
+}
+
+.accordianSection .rghtBox {
+    width: 33%;
+}
+
+.accordianSection .rghtBox img {
+    max-width: 100%;
+}
+
+.headingCont {
+    width: 100%;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.headingCont span {
+    color: #0074d7;
+    font-weight: 600;
+}
+
+
+/************ Accourdion Section End *******************/
