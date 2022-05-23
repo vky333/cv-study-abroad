@@ -37,8 +37,8 @@ export const DownloadApp = () => {
                       name="phone"
                       required
                       placeholder="Enter mobile no"
-                      minlength="10"
-                      maxlength="20"
+                      minLength="10"
+                      maxLength="20"
                       className={`${styles.frmControl} form-control`}
                     />
                     <Button

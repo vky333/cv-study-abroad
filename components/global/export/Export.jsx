@@ -7,11 +7,11 @@ export const Export = () => {
   return (
     <>
     <section className={`${styles.expertsSec} sectionGlobal`}>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 mx-auto">
-                        <div class="row">
-                            <div class="col-md-7 d-flex flex-column justify-content-center">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-12 mx-auto">
+                        <div className="row">
+                            <div className="col-md-7 d-flex flex-column justify-content-center">
                                 <h2>Talk to our Experts</h2>
                                 <h2 className={`${styles.textOrange}`}> 1800-420-5757</h2>
                                 <p>Got a question? call us!</p>
@@ -20,9 +20,9 @@ export const Export = () => {
                                         Book Your 30 Mins Expert Career Advice
                                 </Button>
                             </div>
-                            <div class="col-md-5">
+                            <div className="col-md-5">
                                 <div className={`${styles.expertsCard}`}>
-                                    <ul class="list-unstyled d-flex flex-wrap">
+                                    <ul className="list-unstyled d-flex flex-wrap">
                                         <li><Image width={169} height={169} src="/experts/e1.png" alt="collegevidya - Expert team 1"/></li>
                                         <li><Image width={169} height={169} src="/experts/e2.jpg" alt="collegevidya - Expert team 2"/></li>
                                         <li><Image width={169} height={169} src="/experts/e3.jpg" alt="collegevidya - Expert team 3"/></li>
