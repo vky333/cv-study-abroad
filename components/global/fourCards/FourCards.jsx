@@ -8,13 +8,25 @@ export const FourCards = () => {
       <section className={`${styles.fourCard} sectionGlobal`}>
         <div className="container">
           <div className="row">
-            <div className="col-md-12 text-center headingOne"><h1>How We Can <span>Assist You</span></h1> <h4></h4></div>
+            <div className="col-md-12 text-center headingOne"><h1>How We <div><span>Can Assist You</span></div></h1> <h4></h4></div>
+            
+            <div className="col-md-3">
+              <div className="cardSection01">
+              <Card
+                  carImage="/victor/4.png"
+                  carText1="Suggest a University in 5 Mins "
+                  carText2="All you have to do is to fill in the essential details for us, and our AI Based search will guide you to the courses or universities which are the best fit for you! 
+                  Try it!
+                  "
+                />
+              </div>
+            </div>
             <div className="col-md-3">
               <div className="cardSection01">
                 <Card
                   carImage="/victor/1.png"
-                  carText1="Video Consultation"
-                  carText2="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                  carText1="Talk with an Experts"
+                  carText2="Our experts will help you with any doubts, queries, or concerns you may have, just like a friend!"
                 />
               </div>
             </div>
@@ -22,9 +34,11 @@ export const FourCards = () => {
               <div className="cardSection01">
               <Card
                   carImage="/victor/2.png"
-                  carText1="Search By Courses"
-                  carText2="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-                />
+                  carText1="Search by Course"
+                  carText2="What is the specialization you are
+                   interested in? Check out the best options as 
+                   per the courses of your interest through our
+                    customizable checklist."/>
               </div>
             </div>
             <div className="col-md-3">
@@ -32,19 +46,11 @@ export const FourCards = () => {
               <Card
                   carImage="/victor/3.png"
                   carText1="Search By Country"
-                  carText2="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                  carText2="What is the destination of your dreams? Check out all the details as per the country of your choice."
                 />
               </div>
             </div>
-            <div className="col-md-3">
-              <div className="cardSection01">
-              <Card
-                  carImage="/victor/4.png"
-                  carText1="Result in 5 mints"
-                  carText2="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-                />
-              </div>
-            </div>
+            
           </div>
         </div>
       </section>

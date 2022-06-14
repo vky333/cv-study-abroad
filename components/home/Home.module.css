@@ -55,10 +55,14 @@
     margin-right: 1rem;
 }
 
+.glBox:last-child {
+    margin-right: 0;
+}
+
 .choice {
     position: absolute;
-    background: rgb(255 255 255 / 75%);
-    padding: 2rem;
+    background: rgb(255 255 255 / 95%);
+    padding: 2rem 2rem 2rem 4rem;
     top: 0;
     width: 100%;
     height: 100%;
@@ -68,9 +72,9 @@
     align-items: center;
 }
 
-.choice h3 {
+.choice h4 {
     font-weight: 600;
-    font-size: 1.50rem;
+    color: #9b3403;
 }
 
 .glBox:hover .choice {
@@ -98,7 +102,17 @@
 
 .cardText ul {
     margin: 0;
-    padding: 0 0 0 20px;
+    padding: 1rem 1rem 1rem 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cardText ul li {
+    width: 47%;
+    margin-right: -2rem;
+    font-weight: 500;
 }
 
 .countryImg {
@@ -135,39 +149,7 @@
 .jourSection {
     width: 100%;
     height: 100%;
-}
-
-.lineSlider {
-    background-color: #0074d7;
-    width: 4px;
-    height: 53vh;
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    border-radius: 10px;
-    animation: mymove 8s;
-    transition: ease-in-out 0.5s;
-}
-
-.lineSlider::after {
-    content: "";
-    width: 13px;
-    height: 13px;
-    position: absolute;
-    bottom: 0;
-    background: #ffa400;
-    left: -5px;
-    border-radius: 100%;
-}
-
-@keyframes mymove {
-    from {
-        height: 0px;
-    }
-    to {
-        height: 53vh;
-    }
+    position: relative;
 }
 
 .slideBox01 {
@@ -262,8 +244,8 @@
 }
 
 .accordianSection .lftBox {
-    width: 55%;
-    margin-top: 2rem;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .accordianSection .rghtBox {
@@ -287,3 +269,126 @@
 
 
 /************ Accourdion Section End *******************/
+
+.slideContainer {
+    position: relative;
+}
+
+.journey_progress {
+    background: #eee;
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    padding: 0;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.cards_main_journey {
+    padding-left: 15px;
+}
+
+.cards_main_journey.active_journey {
+    padding-left: 0 !important;
+    padding-right: 15px;
+}
+
+.cards_main_journey:before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    width: 20px;
+    height: 20px;
+    background: #0089e5;
+    border-radius: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: 0px 3px 9px #333;
+}
+
+.active_journey:before {
+    left: auto;
+    right: -10px;
+}
+
+.active_progress {
+    background: #0089e5;
+    transition: height ease-in-out;
+    border-radius: 20px;
+    position: relative;
+}
+
+@keyframes mymove {
+    from {
+        height: 0px;
+    }
+    to {
+        height: 53vh;
+    }
+}
+
+.active_progress::after {
+    content: "";
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    bottom: 0;
+    background: #ffa400;
+    left: -4px;
+    border-radius: 100%;
+}
+
+.active_journey {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+@media (max-width: 1024px) {
+    .journey_card_img {
+        height: 260px;
+    }
+    .journey_progress {
+        top: 130px;
+    }
+}
+
+@media (max-width: 768px) {
+    .journey_card_img {
+        height: 200px;
+    }
+    .journey_cards p {
+        font-size: 14px;
+    }
+    .sec_head h1 {
+        font-size: 1.7rem;
+    }
+    .sec_head p {
+        font-size: 1.2rem;
+    }
+    .journey_progress {
+        top: 85px;
+        height: 92.5%;
+    }
+}
+
+@media (max-width: 425px) {
+    .journey_cards,
+    .active_journey {
+        text-align: center;
+    }
+    .journey_cards {
+        margin-bottom: 35px;
+    }
+    .journey_card_img {
+        width: 45%;
+        margin: auto;
+    }
+    .sec_head p {
+        font-size: 1rem;
+    }
+    .sec_head h1 {
+        font-size: 1.4rem;
+    }
+}

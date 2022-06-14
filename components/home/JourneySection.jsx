@@ -2,15 +2,38 @@ import React from "react";
 import styles from "../home/Home.module.css";
 import Image from "next/image";
 import CustomJourney from "../home/CustomJourney";
+import { useState, useRef, useEffect } from "react";
 
 export const JourneySection = () => {
+  const [scrollTop, setscrollTop] = useState(0);
+  const scrollSectionRef = useRef(null);
+
+  const OnScroll = () => {
+    if (scrollSectionRef.current.getBoundingClientRect().top < 0) {
+      var distanceFromTop =
+        scrollSectionRef.current.getBoundingClientRect().top;
+      setscrollTop(
+        Math.abs(distanceFromTop) / 10 > 100
+          ? 100
+          : Math.abs(distanceFromTop) / 10
+      );
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", OnScroll);
+  }, []);
+
   return (
     <>
       <section className={`${styles.jourSection} sectionGlobal`}>
         <div className="container">
           <div className="headingOne">
             <h1>
-              Perks of Starting your <span>Journey with us</span>
+              Perks of Starting{" "}
+              <div>
+                <span>your Journey with us</span>
+              </div>
             </h1>
             <div>
               This section would highlight the benefits to a user of our
@@ -18,8 +41,20 @@ export const JourneySection = () => {
             </div>
           </div>
           
+
+          <div className={styles.slideContainer}>
+          <div className={`${styles.journey_progress} d-none d-sm-block`}>
+            <div
+              ref={scrollSectionRef}
+              className={styles.active_progress}
+              style={{ height: `${scrollTop}%` }}
+            ></div>
+          </div>
+
           <div className={`${styles.slideBox01}`}>
-          <div className={`${styles.lineSlider}`}></div>
+
+           
+
             <CustomJourney
               Heading="WE COMPILE -"
               HeadingSpan="YOU DECIDE!"
@@ -73,6 +108,7 @@ export const JourneySection = () => {
               Experts who would love to clear any sort of confusion you may have through our Interactive Platform."
               JourneyImage="/victor/journey/5.png"
             />
+          </div>
           </div>
         </div>
       </section>

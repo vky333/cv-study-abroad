@@ -15,10 +15,10 @@ export const Header = () => {
             <Navbar.Brand href="#home"><Logo /></Navbar.Brand>
             <Nav className={`${styles.menuTab} me-auto`}>
               {/* <Nav.Link href="#home"><FaHome/>Suggest Me a University</Nav.Link> */}
-              <Nav.Link href="#home">Suggest Me a University</Nav.Link>
-              <Nav.Link href="#Courses">Courses</Nav.Link>
-              <Nav.Link href="#Country">Country</Nav.Link>
-              <Nav.Link href="#VideoConsult">Video Consult </Nav.Link>
+              <Nav.Link href="#home">Suggest a University in 5 Mins</Nav.Link>
+              <Nav.Link href="#Courses">Talk with an Expert</Nav.Link>
+              <Nav.Link href="#Country">Search By Course</Nav.Link>
+              <Nav.Link href="#VideoConsult">Search By Country</Nav.Link>
             </Nav>
             <Nav className={`${styles.login_main} logoinBox`}>
                 <Nav.Link href="#deets" className="text-white">

@@ -7,7 +7,9 @@ const CustomAccordian = (props) => {
       {props.contents.map((content, index) => (
         <Accordion.Item key={index} eventKey={index}>
           <Accordion.Header>{content.header}</Accordion.Header>
-          <Accordion.Body>{content.body}</Accordion.Body>
+          <Accordion.Body>
+            <span dangerouslySetInnerHTML={{__html: content.body}} />            
+          </Accordion.Body>
         </Accordion.Item>
       ))}
     </Accordion>

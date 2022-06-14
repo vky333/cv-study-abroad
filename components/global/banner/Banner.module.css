@@ -6,7 +6,6 @@
 
 .bannerSection {
     width: 100%;
-    height: 100vh;
     position: relative;
 }
 
@@ -54,7 +53,6 @@
     width: 100%;
     line-height: 1.2 !important;
     color: #fff;
-    text-shadow: 0px 1px 6px #000;
 }
 
 .bannerTextCont h4 {
@@ -62,9 +60,8 @@
 }
 
 .bannerTextCont h5 {
-    font-weight: 400;
-    color: #ffed00;
-    text-shadow: 0px 1px 6px #000;
+    font-weight: 600;
+    color: #fff;
 }
 
 .bannerTextCont p {
@@ -110,7 +107,7 @@
 .progressBarContainer .progAnimation {
     width: 100%;
     height: 2px;
-    background: #555;
+    background: #1970fa;
     position: absolute;
     left: 0;
     animation: mymove 8s;
@@ -127,7 +124,7 @@
 }
 
 .progressBarContainer p {
-    font-size: 12px;
+    font-size: 13px;
     margin-top: 5px;
     line-height: 16px;
     color: #c9c4c4;

@@ -9,13 +9,13 @@ export const Card = (prop) => {
       <div className="cardContainer">
         <Image src={prop.carImage} width={700} height={512} alt="cardImage" />
         <div className={`${styles.cardBox}`}>
-          <h5>{prop.carText1} </h5>
+          <h4>{prop.carText1} </h4>
           <div className="box-Hide">
-            {prop.carText2}
-            <Button variant="primary" size="sm" className="mt-3 smallBtn">
+            {prop.carText2}            
+          </div>
+          <Button variant="primary" size="sm" className="mt-3 smallBtn">
               Read More
             </Button>
-          </div>
         </div>
       </div>
     </>

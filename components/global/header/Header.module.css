@@ -55,7 +55,7 @@
     margin-left: auto !important;
     background: #0074d7;
     border-radius: 25px;
-    padding: 0rem 1rem;
+    padding: 0 1rem;
 }
 
 .navbar-brand {
@@ -63,19 +63,11 @@
 }
 
 .login_main {
-    border: #FFF 1px solid;
     border-radius: 25px;
-}
-
-.headerContainer .login_main a {
-    /* color: #0074d7 !important; */
-    font-weight: 500;
 }
 
 .login_main:hover {
-    background-color: #0074d7;
     transition: ease-in-out 0.5s;
-    border-radius: 25px;
 }
 
 .headerContainer .navbar-light .navbar-nav .text-white .nav-link:focus,

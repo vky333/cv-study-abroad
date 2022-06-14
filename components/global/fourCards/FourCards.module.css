@@ -6,13 +6,25 @@
 
 .cardBox {
     width: 100%;
-    padding: 1rem 1rem;
+    padding: 1rem 2rem;
     height: 100%;
     border-top: #ddd 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 200px;
 }
 
-.fourCard h5 {
+.fourCard .cardBox:nth-of-type(1) {
+    padding: 1rem 1rem;
+}
+
+.fourCard h4 {
     font-weight: 500;
     color: #333;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
