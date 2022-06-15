@@ -13,7 +13,7 @@ export const Header = () => {
           <div className={`${styles.headerBox}`}>          
           <Navbar variant="light" className={`${styles.headerNavBar}`}>
             <Navbar.Brand href="#home"><Logo /></Navbar.Brand>
-            <Nav className={`${styles.menuTab} me-auto`}>
+            <Nav className={`${styles.menuTab} me-auto hderMenuTab`}>
               {/* <Nav.Link href="#home"><FaHome/>Suggest Me a University</Nav.Link> */}
               <Nav.Link href="#home">Suggest a University in 5 Mins</Nav.Link>
               <Nav.Link href="#Courses">Talk with an Expert</Nav.Link>

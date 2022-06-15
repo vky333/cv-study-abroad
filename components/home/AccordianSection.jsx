@@ -81,7 +81,7 @@ export const AccordianSection = () => {
           <div className="row">
             <div className="col-md-12">
               <div className={`${styles.headingCont}`}>
-                <h1>FAQs</h1>
+                <h1>Faq<span>s</span></h1>
                 <div>We do love to answer!</div>
               </div>
               <div className={`${styles.accInnerBox}`}>
