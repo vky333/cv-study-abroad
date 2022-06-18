@@ -190,8 +190,27 @@ h6 {
 
 /******* Header End ******/
 
+.downApp .mNumerCode {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0d6efd;
+    background-color: #fff;
+    padding: 0.3rem 1rem;
+    border: 1px solid #ced4da;
+    border-right: 0;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 85px;
+}
+
 
 /******* Footer Start ******/
+
+.ftrLogoConent {
+    padding-right: 6rem;
+}
 
 .footerBox .logobox {
     width: 33%;

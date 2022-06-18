@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../downloadApp/DownloadApp.module.css";
-import { Image, Button } from "react-bootstrap";
+import { Image, Button, Form } from "react-bootstrap";
 
 export const DownloadApp = () => {
   return (
@@ -30,8 +30,14 @@ export const DownloadApp = () => {
 
                 <h3>Get the Link to Download the App</h3>
                 <h5>Below fill Your Mobile Number.</h5>
-                  <form action="/send-data-here" method="post" className={`${styles.frmBox}`}>
-                    <span>+91</span>
+                  <form action="/send-data-here" method="post" className={`${styles.frmBox}`}>                    
+                    <Form.Group>                    
+                    <Form.Select id="disabledSelect" className="form-control mNumerCode">
+                      <option>+91</option>
+                      <option>+92</option>
+                      <option>+93</option>                      
+                    </Form.Select>
+                  </Form.Group>
                     <input
                       type="text"
                       id="phone"

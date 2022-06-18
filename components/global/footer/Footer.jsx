@@ -16,10 +16,10 @@ export const Footer = () => {
         <footer className={`${styles.footer_sec} footerBox`}>
             <Container>
                 <Row>
-                    <Col sm={4}>
+                    <Col sm={6}>
                         <div className='text-white'>
                             <Logo/>
-                            <p className='mt-2 mt-sm-4'>
+                            <p className='mt-2 mt-sm-4 ftrLogoConent'>
                                 We let you analyze and compare the best return on investment 
                                 for the time, money, and efforts you are willing to put into
                                  your dream of studying abroad. Likewise, our experts are here 
@@ -28,7 +28,7 @@ export const Footer = () => {
                             </p>
                         </div>
                     </Col>
-                    <Col sm={4}>
+                    <Col sm={3}>
                         <div className={styles.footer_list}>
                             <h5 className='text-white fw-bold mb-2 mb-sm-4'>Inside</h5>
                             <Link href="/"><a>Suggest a University in 5 Mins</a></Link>
@@ -38,11 +38,11 @@ export const Footer = () => {
                             
                         </div>
                     </Col>
-                    <Col sm={4}>
+                    <Col sm={3}>
                         <div className={`${styles.footer_list} ${styles.footer_icon}`}>
                             <h5 className='text-white fw-bold mb-2 mb-sm-4'>Contact us</h5>
                             <div><Link href="/"><a><MdMailOutline /> Info@collegevidya.com</a></Link></div>
-                            <div className="mb-3"><Link href="/"><a><IoMdCall /> 1800-420-5757</a></Link></div>
+                            <div className="mb-1"><Link href="/"><a><IoMdCall /> 1800-420-5757</a></Link></div>
                             <Link href="/"><a><GrFacebookOption /></a></Link>
                             <Link href="/"><a><FaTwitter /></a></Link>
                             <Link href="/"><a><GrLinkedinOption /></a></Link>
