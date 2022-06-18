@@ -8,11 +8,11 @@ export const CustomJourney = (props) => {
     
       <div className={`${styles.jorBox} row d-flex`}>
         <div className={`${styles.jorRowBox} col-md-6`}>
-          <div className={`${styles.descriptionSection}`}>
-            <h2>
+          <div className={`${styles.descriptionSection} journyDescription`}>
+            <h1>
               {props.Heading}
               <span>{props.HeadingSpan}</span>
-            </h2>
+            </h1>
             <div>{props.Parragraph}</div>
           </div>
         </div>

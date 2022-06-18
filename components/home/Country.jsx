@@ -6,18 +6,24 @@ import { section, Carousel } from "react-bootstrap";
 export const Country = () => {
   return (
     <>
-      <section className={`${styles.CountryContainer} contryJourney sectionGlobal`}>
+    <section className={`${styles.fourCard01} sectionGlobal`}>
         <div className="container">
           <div className="row">
-            <div className="col-md-12 mb-2 text-center headingOne">
-              <h1>
-                Studying{" "}
+            <div className="col-md-12 text-center headingOne">
+              <h1>               
                 <div>
-                  <span>Abroad Destinations</span>
+                  <span>Studying Abroad</span>
                 </div>
+                Destinations
               </h1>
-              <div>Destinations you can reach with us!</div>
+              <div className="hdingBtmTxt">Destinations you can reach with us!</div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className={`${styles.CountryContainer} contryJourney sectionGlobal`}>
+        <div className="container">
+          <div className="row">            
             <Carousel>
               <Carousel.Item>
                 <div className="col-md-12">
@@ -196,7 +202,29 @@ export const Country = () => {
                         </div>
                       </div>
                     </div>
-
+                    
+                    <div className={`${styles.box_03} ${styles.glBox}`}>
+                      <div
+                        className={`${styles.countryImg} ${styles.countryImage1}`}
+                      >
+                        <h1>Germany</h1>
+                      </div>
+                      <div className={`${styles.choice}`}>
+                        <div className={`${styles.cardBody}`}>
+                          <h4 className={`${styles.cardTitle}`}>
+                            <a>Universities in Germany</a>
+                          </h4>
+                          <div className={`${styles.cardText}`}>
+                            <ul>
+                              <li>
+                                International University of Applied Science
+                              </li>
+                              <li>GISMA Business School</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     <div className={`${styles.box_02} ${styles.glBox}`}>
                       <div
                         className={`${styles.countryImg} ${styles.countryImage1}`}
@@ -220,56 +248,37 @@ export const Country = () => {
                         </div>
                       </div>
                     </div>
-                    <div className={`${styles.box_01} ${styles.glBox} `}>
+                    
+                    <div className={`${styles.box_05} ${styles.glBox}`}>
                       <div
                         className={`${styles.countryImg} ${styles.countryImage1}`}
                       >
-                        <h1>USA</h1>
+                        <h1>Australia</h1>
                       </div>
                       <div className={`${styles.choice}`}>
                         <div className={`${styles.cardBody}`}>
                           <h4 className={`${styles.cardTitle}`}>
-                            <a>Universities in USA</a>
+                            <a>Universities in Australia</a>
                           </h4>
-
                           <div className={`${styles.cardText}`}>
                             <ul>
-                              <li>Johnson & Wales University </li>
-                              <li>Clark University </li>
-                              <li>Yeshiva University</li>
-                              <li>Northern Arizona University</li>
-                              <li>University of Bridgeport</li>
-                              <li>Edgewood College</li>
-                              <li>South Dakota State University</li>
-                              <li>Golden Gate University</li>
-                              <li>Troy University</li>
+                              <li>Deakin University</li>
+                              <li>Jame Cook University</li>
+                              <li>Torrens University</li>
+                              <li>University of Canberra</li>
+                              <li>Russo Business School</li>
+                              <li>Victoria University</li>
+                              <li>Flinders University</li>
+                              <li>Western Sydney University</li>
+                              <li>Bond University</li>
+                              <li>University of New South Wales</li>
+                              <li>University of Queensland</li>
                             </ul>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className={`${styles.box_03} ${styles.glBox}`}>
-                      <div
-                        className={`${styles.countryImg} ${styles.countryImage1}`}
-                      >
-                        <h1>Germany</h1>
-                      </div>
-                      <div className={`${styles.choice}`}>
-                        <div className={`${styles.cardBody}`}>
-                          <h4 className={`${styles.cardTitle}`}>
-                            <a>Universities in Germany</a>
-                          </h4>
-                          <div className={`${styles.cardText}`}>
-                            <ul>
-                              <li>
-                                International University of Applied Science
-                              </li>
-                              <li>GISMA Business School</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    
                   </div>
                 </div>
               </Carousel.Item>

@@ -81,21 +81,20 @@ export const AccordianSection = () => {
           <div className="row">
             <div className="col-md-12">
               <div className={`${styles.headingCont}`}>
-                <h1>Faq<span>s</span></h1>
-                <div>We do love to answer!</div>
+                <h1>FAQS</h1>
+                
               </div>
+            </div>
+
+            <div className="col-md-3 d-flex align-items-center">
+              <h1 className={`${styles.headingAccord}`}>We would love to answer!</h1>
+            </div>
+
+            <div className="col-md-9">
               <div className={`${styles.accInnerBox}`}>
                 <div className={`${styles.lftBox}`}>
                   <CustomAccordian contents={contents} />
                 </div>
-                {/* <div className={`${styles.rghtBox}`}>
-                  <Image
-                    width={550}
-                    height={550}
-                    src="/victor/accordinaImg.png"
-                    alt="HelpImg"
-                  />
-                </div> */}
               </div>
             </div>
           </div>

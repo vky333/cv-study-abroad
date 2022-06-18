@@ -12,7 +12,7 @@ const BannerImage = () => {
     const bannerContDynamic = [
         {
             id: 0,
-            banImg: "/banner/suggestUniversity/1.jpg",
+            banImg: "/banner/suggestUniversity/banner1.png",
             h1Text: "Your skills can determine your career path.",
             BtnOne: "Explore our programs",
             h5Text: "Start Learning "

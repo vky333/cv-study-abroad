@@ -35,7 +35,7 @@ export const JourneySection = () => {
                 <span>your Journey with us</span>
               </div>
             </h1>
-            <div>
+            <div className="hdingBtmTxt">
               This section would highlight the benefits to a user of our
               platform.
             </div>
@@ -56,23 +56,23 @@ export const JourneySection = () => {
            
 
             <CustomJourney
-              Heading="WE COMPILE -"
-              HeadingSpan="YOU DECIDE!"
+              Heading="We Compile -"
+              HeadingSpan="You Decide!"
               Parragraph="With our Easy - Customised AI-Based Search options, 
               we will ensure that without many clicks and simple inputs, 
               you get your dream Destination & Course that fits you best."
-              JourneyImage="/victor/journey/1.png"
+              JourneyImage="/victor/journey/weCompile.svg"
             />
           </div>
 
-          <div className={`${styles.slideBox02}`}>
+          <div className={`${styles.slideBox02} slideBox02`}>
             <CustomJourney
               Heading="Analyse Your"
               HeadingSpan=" Return on Investment"
               Parragraph="We understand you want to ensure your future! Wherein,
               you can analyse & compare the best return of investment
                for the time, money & effort you are willing to commit."
-              JourneyImage="/victor/journey/2.png"
+              JourneyImage="/victor/journey/returnInvestment.svg"
             />
           </div>
 
@@ -85,18 +85,18 @@ export const JourneySection = () => {
                the duration, curriculum, features, ROIs, and so on. 
                We have it all sorted with our comparison portal.
                "
-              JourneyImage="/victor/journey/3.png"
+              JourneyImage="/victor/journey/compareit.svg"
             />
           </div>
 
-          <div className={`${styles.slideBox04}`}>
+          <div className={`${styles.slideBox04} slideBox04`}>
             <CustomJourney
               Heading="Empower your studies with the"
               HeadingSpan=" International Accelerator Program"
               Parragraph="Get the best assistance for your academic and English-proficiency 
               requirements with the International Accelerator program that prepares
                you for your dream of studying abroad."
-              JourneyImage="/victor/journey/4.png"
+              JourneyImage="/victor/journey/acceleratorProgram.svg"
             />
           </div>
 
@@ -106,7 +106,7 @@ export const JourneySection = () => {
               HeadingSpan=" Talk to Experts!"
               Parragraph="Are you still sceptical and want some good advice? Guess What?! You are just a few clicks away from our 
               Experts who would love to clear any sort of confusion you may have through our Interactive Platform."
-              JourneyImage="/victor/journey/5.png"
+              JourneyImage="/victor/journey/talkExperts.svg"
             />
           </div>
           </div>

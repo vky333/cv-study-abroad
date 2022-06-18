@@ -19,17 +19,23 @@ export const Footer = () => {
                     <Col sm={4}>
                         <div className='text-white'>
                             <Logo/>
-                            <p className='mt-2 mt-sm-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nisi dolor doloremque quisquam aliquam voluptatum enim ad.</p>
+                            <p className='mt-2 mt-sm-4'>
+                                We let you analyze and compare the best return on investment 
+                                for the time, money, and efforts you are willing to put into
+                                 your dream of studying abroad. Likewise, our experts are here 
+                                 to help and guide you with all of your doubts, just like a 
+                                 good friend would.
+                            </p>
                         </div>
                     </Col>
                     <Col sm={4}>
                         <div className={styles.footer_list}>
                             <h5 className='text-white fw-bold mb-2 mb-sm-4'>Inside</h5>
-                            <Link href="/"><a>Find Counselore</a></Link>
-                            <Link href="/"><a>Video Consult</a></Link>
-                            <Link href="/"><a>courses</a></Link>
-                            <Link href="/"><a>Testimonials</a></Link>
-                            <Link href="/"><a> Blog</a></Link>
+                            <Link href="/"><a>Suggest a University in 5 Mins</a></Link>
+                            <Link href="/"><a>Talk with an Expert</a></Link>
+                            <Link href="/"><a>Search By Course</a></Link>
+                            <Link href="/"><a>Search By Country</a></Link>
+                            
                         </div>
                     </Col>
                     <Col sm={4}>

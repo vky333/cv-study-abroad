@@ -194,9 +194,6 @@
     .enrolBtn {
         font-size: 14px;
     }
-    .progressBarContainer {
-        display: none;
-    }
     .bannerSection button[data-bs-target] {
         height: 3px;
         border-radius: 0px !important;
@@ -207,6 +204,9 @@
     .bannerTextCont h1 {
         font-size: 1rem;
         width: 80%;
+    }
+    .progressBarContainer {
+        display: none;
     }
 }
 

@@ -8,15 +8,16 @@ export const DownloadApp = () => {
       <section className={`${styles.downloadApp} sectionGlobal`}>
         <div className="container">
           <div className="row">
-            <div className="col-md-5 text-center">
+            <div className="col-md-4">
               <Image
-                src="/video_mobile.png"
-                width={384}
-                height={683}
+                src="/video_Mobile_App.svg"
+                width={346}
+                height={615}
+                className="d-block w-100"
                 alt="DownloadApp"
               />
             </div>
-            <div className="col-md-7">
+            <div className="col-md-8">
               <div className="headingOne downApp">
                 <h1>
                   <span>Download</span> the <p>College Vidya App</p>
@@ -25,7 +26,7 @@ export const DownloadApp = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Accusamus voluptate unde eius optio consectetur maiores!
                 </p>
-                </div>
+                
 
                 <h3>Get the Link to Download the App</h3>
                 <h5>Below fill Your Mobile Number.</h5>
@@ -49,6 +50,7 @@ export const DownloadApp = () => {
                       Send SMS
                     </Button>                   
                   </form>
+                  </div>
                 </div>
               
             </div>

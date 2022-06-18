@@ -1,29 +1,36 @@
 .expertsSec {
-    background-color: #0d6efd;
+    background: #001946 url(/bg/talk_Experts_Bg.svg) no-repeat;
+    background-position: center 15px;
 }
 
 .exportBtn {
-    width: 60%;
-    background-color: #fff;
-    color: #000;
-    font-weight: 500;
+    width: 80%;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    background: none;
+    border: #ffffff 2px solid;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 1rem;
 }
 
 .expertsCard ul {
     margin: 0;
     padding: 0;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .expertsCard ul li {
-    width: calc(33.33% - 6px);
-    margin: 3px;
+    width: calc(30% - 6px);
+    margin: 0 0 2% 2%;
     display: flex;
-    border-radius: 5%;
     overflow: hidden;
 }
 
 .expertsSec h2 {
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 35px;
 }
 
 .expertsSec h2,
@@ -31,7 +38,12 @@
     color: #FFFF;
 }
 
+.expertsSec p {
+    font-size: 16px;
+}
+
 .expertsSec .textOrange {
-    color: #ffed00;
+    color: #4786FF;
     font-weight: bold;
+    font-size: 50px;
 }

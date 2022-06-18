@@ -1,7 +1,21 @@
 .downloadApp {
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background: #fff url(/bolb_Bg.svg) center left no-repeat;
+    background-size: 36% auto;
+    position: relative;
+}
+
+.downloadApp::after {
+    content: "";
+    background: url(/PatternBg.svg) center right no-repeat;
+    min-width: 156px;
+    max-height: 482px;
+    position: absolute;
+    right: 0%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 .frmBox {
@@ -9,6 +23,19 @@
     height: 100%;
     display: flex;
     max-height: 40px;
+}
+
+.downloadApp h1 {
+    line-height: 60px !important;
+}
+
+.downloadApp h3 {
+    color: #0d6efd;
+}
+
+.frmBox button {
+    padding: 0.5rem 1.5rem;
+    font-size: 16px;
 }
 
 .frmBox span {
