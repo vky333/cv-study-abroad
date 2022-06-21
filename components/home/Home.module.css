@@ -491,6 +491,10 @@
     .accordianSection {
         margin-top: 8rem;
     }
+    .headingAccord {
+        padding: 0rem 0rem 2rem 0rem;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 668px) {
