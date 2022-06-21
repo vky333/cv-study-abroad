@@ -22,7 +22,7 @@ export const FourCards = () => {
       <section className={`${styles.fourCard} sectionGlobal`}>
         <div className="container">
           <div className="row">
-            <div className="col-md-3">
+            <div className="col-md-3 mb-4">
               <div className="cardSection01">
                 <Card
                   carImage="/victor/suggestUniversity.svg"
@@ -33,7 +33,7 @@ export const FourCards = () => {
                 />
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 mb-4">
               <div className="cardSection01">
                 <Card
                   carImage="/victor/talkToExperts.svg"
@@ -42,7 +42,7 @@ export const FourCards = () => {
                 />
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 mb-4">
               <div className="cardSection01">
                 <Card
                   carImage="/victor/searchByCourse.svg"
@@ -54,7 +54,7 @@ export const FourCards = () => {
                 />
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 mb-4">
               <div className="cardSection01">
                 <Card
                   carImage="/victor/searchByCountry.svg"

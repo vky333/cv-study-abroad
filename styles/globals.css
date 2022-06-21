@@ -74,19 +74,26 @@ h6 {
     padding: 0 !important;
 }
 
-.pageHeader .navbar-light .navbar-nav .nav-link {
+.pageHeader .navbar-dark .navbar-toggler {
     color: #fff;
+    border-color: #FFF;
+    opacity: 1;
 }
 
-.pageHeader .navbar-expand .navbar-nav .nav-link {
-    padding: 0.7rem 1rem;
+.pageHeader a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.pageHeader .hderMenuTab a {
+    padding: 0.7rem 1rem !important;
     position: relative;
     transition: 0.7s;
 }
 
-.pageHeader .navbar-expand .navbar-nav .nav-link::after {
+.pageHeader a::after {
     content: "";
-    background-color: #b7b6b6;
+    background-color: #fff;
     width: 1px;
     height: 20px;
     position: absolute;
@@ -96,24 +103,26 @@ h6 {
     right: 0;
 }
 
-.pageHeader .navbar-expand .navbar-nav.hderMenuTab .nav-link:hover {
+.pageHeader a:hover {
     background-color: #fff;
+    color: #000 !important;
 }
 
-.pageHeader .navbar-expand .navbar-nav.hderMenuTab .nav-link:first-child:hover {
+.pageHeader .navbar-expand .navbar-nav.hderMenuTab a:first-child:hover {
     border-radius: 25px 0 0px 25px;
 }
 
-.pageHeader .navbar-expand .navbar-nav.hderMenuTab .nav-link:last-child:hover {
+.pageHeader .navbar-expand .navbar-nav.hderMenuTab a:last-child:hover {
     border-radius: 0px 25px 25px 0px;
 }
 
-.pageHeader .navbar-expand .navbar-nav .nav-link:last-child::after {
+.pageHeader a:last-child::after {
     display: none;
 }
 
-.pageHeader .navbar-light .navbar-nav .nav-link.active,
-.pageHeader .navbar-light .navbar-nav .show>.nav-link {
+.pageHeader a.active,
+.pageHeader .show>a {
+    background-color: #fff;
     color: #000 !important;
 }
 
@@ -122,8 +131,9 @@ h6 {
     margin-right: 0;
 }
 
-.pageHeader .navbar-light .navbar-nav.hderMenuTab .nav-link:focus,
-.pageHeader .navbar-light .navbar-nav.hderMenuTab .nav-link:hover {
+.pageHeader .navbar-light .navbar-nav.hderMenuTab a:focus,
+.pageHeader .navbar-light .navbar-nav.hderMenuTab a:hover {
+    background-color: #fff;
     color: #000 !important;
 }
 
@@ -375,28 +385,136 @@ h6 {
     body {
         font-size: 13px;
     }
-    .pageHeader .navbar-expand .navbar-nav .nav-link {
+    .pageHeader .navbar-expand .navbar-nav a {
         padding: 0.5rem;
     }
     .cardSection01 {
-        border: 1px solid #ddd;
-        max-width: 200px;
-        height: 230px;
+        height: 100%;
     }
     .cardSection01:hover {
-        transform: scale(1.1);
-        height: 390px;
+        height: 460px;
     }
     .cardSection01:hover .globlCardBox {
         min-height: 237px;
+    }
+    .sectionGlobal .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 1rem;
+    }
+}
+
+@media(max-width: 992px) {
+    .pageHeader a::after {
+        content: "";
+        display: none;
+    }
+    .pageHeader .container {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+    .pageHeader .hderMenuTab a {
+        padding: 0.7rem 1.5rem 0.7rem 1.5rem !important;
+    }
+    .pageHeader .hderMenuTab a:first-child {
+        padding-top: 2rem !important;
+    }
+    .sectionGlobal .carousel-control-next {
+        right: 0rem;
+        top: inherit;
+        bottom: -50px;
+    }
+    .sectionGlobal .carousel-control-prev {
+        left: 0rem;
+        top: inherit;
+        bottom: -50px;
+    }
+    .cardSection01:hover h4 {
+        height: auto;
+        font-size: 16px;
+    }
+    .banerSection .carousel-fade .carousel-item {
+        text-align: center;
+        height: auto;
+    }
+    .cardSection01:hover .box-Hide {
+        height: 100%;
+    }
+    .cardSection01:hover .globlCardBox {
+        min-height: 100%;
+    }
+    .cardSection01:hover {
+        min-height: 100%;
+        height: 100%;
     }
 }
 
 @media(max-width: 768px) {
     .banerSection .carousel-indicators {
-        opacity: 1;
+        opacity: 1 !important;
+    }
+    .cardSection01 {
+        margin-bottom: 2rem;
+        max-width: 80%;
+    }
+    .cardSection01:hover {
+        height: 100%;
+    }
+    .slideBox02 .journyDescription,
+    .slideBox04 .journyDescription {
+        padding: 0 0rem 0 7rem !important;
+    }
+    .sectionGlobal {
+        padding: 2rem 0;
+    }
+    .downApp {
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+    .cardSection01:hover {
+        transform: scale(1);
+    }
+    .downApp h1 {
+        font-size: 2.5rem;
     }
 }
+
+@media(max-width: 600px) {
+    .w-100 {
+        height: 100%;
+    }
+    .cardSection01 {
+        max-width: 90%;
+        height: 100%;
+    }
+    .cardSection01:hover {
+        height: 100%;
+    }
+    .banerSection .carousel-fade .carousel-item {
+        height: 50vh;
+    }
+    .downloadApp .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .downloadApp .w-100 {
+        max-width: 50%;
+        margin: 0 auto
+    }
+    .downApp {
+        padding-left: 1%;
+    }
+    .sectionGlobal {
+        padding: 1rem 0 !important;
+    }
+    .sectionGlobal h1 {
+        line-height: normal!important;
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 500px) {}
 
 
 /***************** Media Query End ***********/

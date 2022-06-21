@@ -56,3 +56,16 @@
     border-radius: 0px 5px 5px 0px;
     margin-right: 1rem;
 }
+
+@media(max-width:768px) {
+    .downloadApp::after {
+        display: none;
+    }
+    .frmBox button {
+        padding: 0.5rem 0.5rem;
+        font-size: 13px;
+    }
+    .frmBox .frmControl {
+        margin-right: 0rem;
+    }
+}

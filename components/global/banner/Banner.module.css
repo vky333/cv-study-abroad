@@ -145,7 +145,7 @@
     z-index: 2;
     height: auto;
     width: 100%;
-    padding: 8rem;
+    padding: 5rem;
 }
 
 @media(max-width:1300px) {
@@ -187,16 +187,10 @@
         margin: 0.5rem 0;
     }
     .bannerSection .bannerTextCont {
-        bottom: 3rem;
-        padding: 1rem 0;
         width: 100%;
     }
     .enrolBtn {
         font-size: 14px;
-    }
-    .bannerSection button[data-bs-target] {
-        height: 3px;
-        border-radius: 0px !important;
     }
 }
 
@@ -207,6 +201,17 @@
     }
     .progressBarContainer {
         display: none;
+    }
+    .bannerSection button[data-bs-target] {
+        height: 4px;
+        border-radius: 0px !important;
+    }
+    .bannerSection .bannerTextCont {
+        bottom: 2rem;
+        width: 95%;
+    }
+    .shadow {
+        opacity: 0.3;
     }
 }
 

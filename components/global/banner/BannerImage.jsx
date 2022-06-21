@@ -58,9 +58,10 @@ const BannerImage = () => {
                         </Carousel.Item>
                     )}
                 </Carousel>
-                <BannerDetailContent activeSlide={activeSlide} />
+                
 
             </div>
+            <BannerDetailContent activeSlide={activeSlide} />
             <div className={`${styles.shadow}`}></div>
         </section>
     )

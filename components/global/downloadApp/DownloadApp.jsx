@@ -5,10 +5,10 @@ import { Image, Button, Form } from "react-bootstrap";
 export const DownloadApp = () => {
   return (
     <>
-      <section className={`${styles.downloadApp} sectionGlobal`}>
+      <section className={`${styles.downloadApp} downloadApp sectionGlobal`}>
         <div className="container">
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-sm-4 text-center">
               <Image
                 src="/video_Mobile_App.svg"
                 width={346}
@@ -17,7 +17,7 @@ export const DownloadApp = () => {
                 alt="DownloadApp"
               />
             </div>
-            <div className="col-md-8">
+            <div className="col-sm-8">
               <div className="headingOne downApp">
                 <h1>
                   <span>Download</span> the <p>College Vidya App</p>

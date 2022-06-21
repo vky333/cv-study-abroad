@@ -40,75 +40,71 @@ export const JourneySection = () => {
               platform.
             </div>
           </div>
-          
 
           <div className={styles.slideContainer}>
-          <div className={`${styles.journey_progress} d-none d-sm-block`}>
-            <div
-              ref={scrollSectionRef}
-              className={styles.active_progress}
-              style={{ height: `${scrollTop}%` }}
-            ></div>
-          </div>
+            <div className={`${styles.journey_progress} d-sm-block`}>
+              <div
+                ref={scrollSectionRef}
+                className={styles.active_progress}
+                style={{ height: `${scrollTop}%` }}
+              ></div>
+            </div>
 
-          <div className={`${styles.slideBox01}`}>
-
-           
-
-            <CustomJourney
-              Heading="We Compile -"
-              HeadingSpan="You Decide!"
-              Parragraph="With our Easy - Customised AI-Based Search options, 
+            <div className={`${styles.slideBox01}`}>
+              <CustomJourney
+                Heading="We Compile -"
+                HeadingSpan="You Decide!"
+                Parragraph="With our Easy - Customised AI-Based Search options, 
               we will ensure that without many clicks and simple inputs, 
               you get your dream Destination & Course that fits you best."
-              JourneyImage="/victor/journey/weCompile.svg"
-            />
-          </div>
+                JourneyImage="/victor/journey/weCompile.svg"
+              />
+            </div>
 
-          <div className={`${styles.slideBox02} slideBox02`}>
-            <CustomJourney
-              Heading="Analyse Your"
-              HeadingSpan=" Return on Investment"
-              Parragraph="We understand you want to ensure your future! Wherein,
+            <div className={`${styles.slideBox02} slideBox02`}>
+              <CustomJourney
+                Heading="Analyse Your"
+                HeadingSpan=" Return on Investment"
+                Parragraph="We understand you want to ensure your future! Wherein,
               you can analyse & compare the best return of investment
                for the time, money & effort you are willing to commit."
-              JourneyImage="/victor/journey/returnInvestment.svg"
-            />
-          </div>
+                JourneyImage="/victor/journey/returnInvestment.svg"
+              />
+            </div>
 
-          <div className={`${styles.slideBox03}`}>
-            <CustomJourney
-              Heading="Go ahead &"
-              HeadingSpan=" Compare it!"
-              Parragraph="Comparing your options is a tedious task. Unlike other platforms,
+            <div className={`${styles.slideBox03}`}>
+              <CustomJourney
+                Heading="Go ahead &"
+                HeadingSpan=" Compare it!"
+                Parragraph="Comparing your options is a tedious task. Unlike other platforms,
               we will assist you in comparing universities and courses as per
                the duration, curriculum, features, ROIs, and so on. 
                We have it all sorted with our comparison portal.
                "
-              JourneyImage="/victor/journey/compareit.svg"
-            />
-          </div>
+                JourneyImage="/victor/journey/compareit.svg"
+              />
+            </div>
 
-          <div className={`${styles.slideBox04} slideBox04`}>
-            <CustomJourney
-              Heading="Empower your studies with the"
-              HeadingSpan=" International Accelerator Program"
-              Parragraph="Get the best assistance for your academic and English-proficiency 
+            <div className={`${styles.slideBox04} slideBox04`}>
+              <CustomJourney
+                Heading="Empower your studies with the"
+                HeadingSpan=" International Accelerator Program"
+                Parragraph="Get the best assistance for your academic and English-proficiency 
               requirements with the International Accelerator program that prepares
                you for your dream of studying abroad."
-              JourneyImage="/victor/journey/acceleratorProgram.svg"
-            />
-          </div>
+                JourneyImage="/victor/journey/acceleratorProgram.svg"
+              />
+            </div>
 
-          <div className={`${styles.slideBox05}`}>
-            <CustomJourney
-              Heading="Still confused?"
-              HeadingSpan=" Talk to Experts!"
-              Parragraph="Are you still sceptical and want some good advice? Guess What?! You are just a few clicks away from our 
+            <div className={`${styles.slideBox05}`}>
+              <CustomJourney
+                Heading="Still confused?"
+                HeadingSpan=" Talk to Experts!"
+                Parragraph="Are you still sceptical and want some good advice? Guess What?! You are just a few clicks away from our 
               Experts who would love to clear any sort of confusion you may have through our Interactive Platform."
-              JourneyImage="/victor/journey/talkExperts.svg"
-            />
-          </div>
+                JourneyImage="/victor/journey/talkExperts.svg"
+              />
+            </div>
           </div>
         </div>
       </section>

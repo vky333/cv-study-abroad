@@ -49,7 +49,27 @@
 }
 
 @media(max-width: 1100px) {
+    .fourCard01 {
+        padding: 3rem 0 0rem;
+    }
+    .fourCard01::before {
+        top: 0;
+        width: 9%;
+        min-height: 140px;
+    }
     .fourCard h4 {
-        height: 50px;
+        font-size: 16px;
+    }
+    .exploreBtn {
+        padding: 0.25rem 0.5rem;
+        font-size: .875rem;
+        font-weight: 600;
+        margin-top: 1rem !important;
     }
 }
+
+@media(max-width: 992px) {}
+
+@media(max-width: 768px) {}
+
+@media(max-width: 600px) {}

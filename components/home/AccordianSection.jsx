@@ -57,13 +57,13 @@ export const AccordianSection = () => {
       body: `
       <p>You have to be prepared with some important documents to fulfil your dream of studying abroad. And to make it easier for you we have prepared a list of all the documents required for the same, have a look.</p>
        <ul>
-       <li><b>Application Form</b>: This is one of the most crucial documents which has all of your personal and professional information. </li>
-       <li><b>Statement of Purpose (SOP)</b>: The most significant element of your application, having info about your background, your purpose to pursue the stated program in the mentioned university, and your career aims.</li>
-       <li><b>Academic transcripts</b>: This actually is your academic record, identical to a compact mark sheet that holds data about all courses you’ve pursued along with grades, credits, and degrees earned.</li>
-       <li><b>Letter of Recommendation (LOR)</b>: This is a recommendation letter from anyone you have studied or worked under which remarks about your skills, achievements, experience, and assistance to your college or professional institution.</li>
-       <li><b>Curriculum Vitae (CV) or Resume</b>: A CV or a resume will provide an extensive understanding of your academic and professional background.</li>
-       <li><b>Test Scores</b>: Send test scores such as IELTS, SAT, and GRE scores along with the application.</li>
-       <li><b>Essays</b>: Study Abroad essay to check the seriousness of the candidate (not all universities ask for this). However, this essay can be a big opportunity to make a good first impression and show the university council about your fascination for studying the said course in their institution </li>
+       <li><b>Application Form</b></li>
+       <li><b>Statement of Purpose (SOP)</b></li>
+       <li><b>Academic transcripts</b></li>
+       <li><b>Letter of Recommendation (LOR)</b></li>
+       <li><b>Curriculum Vitae (CV) or Resume</b></li>
+       <li><b>Test Scores</b></li>
+       <li><b>Essays</b></li>
      
        </ul>
        

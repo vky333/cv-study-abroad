@@ -53,6 +53,7 @@
     background: #0074d7;
     border-radius: 25px;
     overflow: hidden;
+    margin-right: auto;
 }
 
 .navbar-brand {
@@ -74,4 +75,31 @@
 .headerContainer .navbar-light .navbar-nav .text-white .nav-link:focus,
 .headerContainer .navbar-light .navbar-nav .text-white .nav-link:hover {
     color: #fff !important;
+}
+
+@media(max-width:992px) {
+    .menuTab {
+        margin-left: auto !important;
+        border-radius: 3px;
+        width: 100%;
+        margin-right: inherit !important;
+        position: absolute;
+        right: 0;
+        left: 0;
+        padding-bottom: 1rem;
+    }
+    .headerContainer {
+        top: 0;
+        background: #578efa;
+    }
+    .abroadLogo {
+        max-width: 70%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .abroadLogo .logCom {
+        bottom: 0.3rem;
+    }
 }
