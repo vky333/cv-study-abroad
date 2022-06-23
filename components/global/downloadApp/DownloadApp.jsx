@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../downloadApp/DownloadApp.module.css";
 import { Image, Button, Form } from "react-bootstrap";
+import Link from 'next/link';
 
 export const DownloadApp = () => {
   return (
@@ -58,6 +59,28 @@ export const DownloadApp = () => {
                     Send SMS
                   </Button>
                 </form>
+                <div className={`${styles.playStoreCont}`}>
+                  
+                    <Link href="/">
+                      <Image
+                        src="/App_store.png"
+                        width={149}
+                        height={49}
+                        className="d-block"
+                        alt="App_store"
+                      />
+                    </Link>
+                    <Link href="/">
+                      <Image
+                        src="/play-store.png"
+                        width={149}
+                        height={49}
+                        className="d-block"
+                        alt="play store"
+                      />
+                    </Link>
+                
+                </div>
               </div>
             </div>
           </div>
