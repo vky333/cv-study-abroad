@@ -64,8 +64,8 @@ export const DownloadApp = () => {
                     <Link href="/">
                       <Image
                         src="/App_store.png"
-                        width={149}
-                        height={49}
+                        width={110}
+                        height={33}
                         className="d-block"
                         alt="App_store"
                       />
@@ -73,8 +73,8 @@ export const DownloadApp = () => {
                     <Link href="/">
                       <Image
                         src="/play-store.png"
-                        width={149}
-                        height={49}
+                        width={110}
+                        height={33}
                         className="d-block"
                         alt="play store"
                       />
