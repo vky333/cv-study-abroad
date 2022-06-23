@@ -509,10 +509,6 @@ h6 {
     .banerSection .carousel-fade .carousel-item {
         height: auto;
     }
-    .downloadApp .row {
-        display: flex;
-        flex-direction: column-reverse;
-    }
     .downloadApp .w-100 {
         max-width: 50%;
         margin: 0 auto
@@ -534,9 +530,9 @@ h6 {
     }
     .smartPhoneImg {
         margin: 0 auto;
-        max-width: 50%;
+        max-width: 80%;
         padding-top: 1rem;
-        padding-bottom: 1rem;
+        padding-bottom: 3rem;
     }
 }
 

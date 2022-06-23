@@ -499,34 +499,32 @@
     .fourCard01::before {
         display: none;
     }
-}
-
-@media (max-width: 550px) {
     .glBox:hover {
         width: 600vh;
     }
     .glBox {
         width: 100%;
     }
-    .cardText ul {
-        flex-direction: column;
-    }
     .choice h4 {
         font-size: 1.1rem;
     }
-    .cardText {
-        font-weight: 500;
-        font-size: 13px;
+    .mbileHide {
+        display: none;
     }
     .countryImg h1 {
-        writing-mode: vertical-rl;
-        text-orientation: upright;
-        font-size: 1.3rem;
         padding: 0;
+        font-size: 2rem;
         letter-spacing: normal;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+}
+
+@media (max-width: 550px) {
+    .cardText {
+        font-weight: 500;
+        font-size: 13px;
     }
     .accordianSection::before {
         background-position: 0 90px;
