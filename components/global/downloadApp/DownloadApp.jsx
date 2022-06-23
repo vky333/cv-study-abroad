@@ -8,7 +8,7 @@ export const DownloadApp = () => {
       <section className={`${styles.downloadApp} downloadApp sectionGlobal`}>
         <div className="container">
           <div className="row">
-            <div className="col-sm-4 text-center">
+            <div className="col-sm-4 text-center mt-5">
               <Image
                 src="/video_Mobile_App.svg"
                 width={346}
@@ -17,7 +17,7 @@ export const DownloadApp = () => {
                 alt="DownloadApp"
               />
             </div>
-            <div className="col-sm-8">
+            <div className="col-sm-8 mb-5">
               <div className="headingOne downApp">
                 <h1>
                   <span>Download</span> the <p>College Vidya App</p>
@@ -26,42 +26,42 @@ export const DownloadApp = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Accusamus voluptate unde eius optio consectetur maiores!
                 </p>
-                
 
                 <h3>Get the Link to Download the App</h3>
                 <h5>Below fill Your Mobile Number.</h5>
-                  <form action="/send-data-here" method="post" className={`${styles.frmBox}`}>                    
-                    <Form.Group>                    
-                    <Form.Select id="disabledSelect" className="form-control mNumerCode">
+                <form
+                  action="/send-data-here"
+                  method="post"
+                  className={`${styles.frmBox}`}
+                >
+                  <Form.Group>
+                    <Form.Select
+                      id="disabledSelect"
+                      className="form-control mNumerCode"
+                    >
                       <option>+91</option>
                       <option>+92</option>
-                      <option>+93</option>                      
+                      <option>+93</option>
                     </Form.Select>
                   </Form.Group>
-                    <input
-                      type="text"
-                      id="phone"
-                      name="phone"
-                      required
-                      placeholder="Enter mobile no"
-                      minLength="10"
-                      maxLength="20"
-                      className={`${styles.frmControl} form-control`}
-                    />
-                    <Button
-                      type="submit"
-                      variant="primary"
-                      size="lg"                      
-                    >
-                      Send SMS
-                    </Button>                   
-                  </form>
-                  </div>
-                </div>
-              
+                  <input
+                    type="text"
+                    id="phone"
+                    name="phone"
+                    required
+                    placeholder="Enter mobile no"
+                    minLength="10"
+                    maxLength="20"
+                    className={`${styles.frmControl} form-control`}
+                  />
+                  <Button type="submit" variant="primary" size="lg">
+                    Send SMS
+                  </Button>
+                </form>
+              </div>
             </div>
           </div>
-        
+        </div>
       </section>
     </>
   );

@@ -69,3 +69,21 @@
         margin-right: 0rem;
     }
 }
+
+@media(max-width:600px) {
+    .frmBox {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .frmBox button {
+        width: 100%;
+    }
+    .frmBox .frmControl {
+        width: 100%;
+        margin: 1rem 0;
+        padding: 0.8rem;
+    }
+    .frmBox button {
+        font-size: 16px;
+    }
+}
