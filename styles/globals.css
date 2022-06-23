@@ -108,6 +108,11 @@ h6 {
     color: #000 !important;
 }
 
+.pageHeader .navbar-brand:hover {
+    background: none;
+    background-color: none !important;
+}
+
 .pageHeader .navbar-expand .navbar-nav.hderMenuTab a:first-child:hover {
     border-radius: 25px 0 0px 25px;
 }
