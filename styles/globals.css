@@ -420,14 +420,16 @@ h6 {
         padding-top: 2rem !important;
     }
     .sectionGlobal .carousel-control-next {
-        right: 0rem;
+        right: inherit;
         top: inherit;
         bottom: -50px;
+        left: 52%;
     }
     .sectionGlobal .carousel-control-prev {
-        left: 0rem;
+        left: 40%;
         top: inherit;
         bottom: -50px;
+        right: inherit;
     }
     .cardSection01:hover h4 {
         height: auto;
@@ -492,7 +494,7 @@ h6 {
         height: 100%;
     }
     .banerSection .carousel-fade .carousel-item {
-        height: 50vh;
+        height: auto;
     }
     .downloadApp .row {
         display: flex;

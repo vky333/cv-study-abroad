@@ -46,4 +46,7 @@
         padding: 1rem;
         font-size: 13px;
     }
+    .copyright div {
+        padding: 0 0.5rem;
+    }
 }

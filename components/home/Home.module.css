@@ -432,6 +432,9 @@
         background-size: 100% auto;
         background-position: 0 35px;
     }
+    .CountryContainer {
+        padding: 1rem 0 3rem 0 !important;
+    }
 }
 
 @media (max-width: 768px) {

@@ -91,6 +91,7 @@
     .headerContainer {
         top: 0;
         background: #578efa;
+        position: relative;
     }
     .abroadLogo {
         max-width: 70%;
