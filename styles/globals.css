@@ -40,8 +40,8 @@ h6 {
     text-align: left;
     color: #333;
     font-size: 18px;
-    margin-top: 10rem;
-    padding-left: 10%;
+    margin-top: 5rem;
+    padding-left: 5%;
 }
 
 .downApp h1 {
@@ -373,6 +373,12 @@ h6 {
     top: 0;
 }
 
+.smartPhoneImg {
+    max-width: 100%;
+    height: auto;
+    margin-left: -13%;
+}
+
 
 /***************** Media Query Start ***********/
 
@@ -405,6 +411,9 @@ h6 {
         width: 100%;
         max-width: 100%;
         padding: 1rem;
+    }
+    .smartPhoneImg {
+        margin-left: 0%;
     }
 }
 
@@ -522,6 +531,12 @@ h6 {
         font-size: 16px;
         border: 1px solid #ced4da;
         width: 100%;
+    }
+    .smartPhoneImg {
+        margin: 0 auto;
+        max-width: 50%;
+        padding-top: 5rem;
+        padding-bottom: 1rem;
     }
 }
 

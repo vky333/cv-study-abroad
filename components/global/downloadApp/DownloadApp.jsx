@@ -8,16 +8,16 @@ export const DownloadApp = () => {
       <section className={`${styles.downloadApp} downloadApp sectionGlobal`}>
         <div className="container">
           <div className="row">
-            <div className="col-sm-4 text-center mt-5">
+            <div className="col-sm-5 text-center">
               <Image
-                src="/video_Mobile_App.svg"
-                width={346}
-                height={615}
-                className="d-block w-100"
+                src="/Smart_phone_.png"
+                width={569}
+                height={637}
+                className="d-block smartPhoneImg"
                 alt="DownloadApp"
               />
             </div>
-            <div className="col-sm-8 mb-5">
+            <div className="col-sm-7 mb-5">
               <div className="headingOne downApp">
                 <h1>
                   <span>Download</span> the <p>College Vidya App</p>

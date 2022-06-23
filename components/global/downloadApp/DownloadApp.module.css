@@ -2,7 +2,6 @@
     width: 100%;
     height: 100%;
     background: #fff url(/bolb_Bg.svg) center left no-repeat;
-    background-size: 36% auto;
     position: relative;
 }
 
@@ -85,5 +84,8 @@
     }
     .frmBox button {
         font-size: 16px;
+    }
+    .downloadApp {
+        background: #fff;
     }
 }
