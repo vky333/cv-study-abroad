@@ -9,19 +9,8 @@
 
 .fourCard01 {
     background-color: #fff;
-    padding: 5rem 0 3rem;
+    padding: 4rem 0 2rem;
     position: relative;
-}
-
-.fourCard01::before {
-    content: "";
-    background: url(/PatternBg.svg) no-repeat;
-    position: absolute;
-    right: 0;
-    top: -3.3rem;
-    width: 12%;
-    min-height: 325px;
-    background-repeat: no-repeat;
 }
 
 .box_01 .countryImage1 {

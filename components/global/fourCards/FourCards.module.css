@@ -6,19 +6,8 @@
 
 .fourCard01 {
     background-color: #fff;
-    padding: 5rem 0 2rem;
+    padding: 4rem 0 1rem;
     position: relative;
-}
-
-.fourCard01::before {
-    content: "";
-    background: url(/patren01.svg) no-repeat;
-    position: absolute;
-    left: 0;
-    top: 1.4rem;
-    width: 40%;
-    min-height: 156px;
-    background-repeat: no-repeat;
 }
 
 .cardBox {
