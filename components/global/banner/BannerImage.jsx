@@ -62,7 +62,7 @@ const BannerImage = () => {
 
             </div>
             <BannerDetailContent activeSlide={activeSlide} />
-            <div className={`${styles.shadow}`}></div>
+            {/* <div className={`${styles.shadow}`}></div> */}
         </section>
     )
 }
