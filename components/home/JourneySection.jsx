@@ -35,10 +35,7 @@ export const JourneySection = () => {
                 <span>your Journey with us</span>
               </div>
             </h1>
-            <div className="hdingBtmTxt">
-              This section would highlight the benefits to a user of our
-              platform.
-            </div>
+           
           </div>
 
           <div className={styles.slideContainer}>

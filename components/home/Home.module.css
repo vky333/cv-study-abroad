@@ -312,7 +312,7 @@
     position: absolute;
     padding: 0;
     left: 50%;
-    top: 0;
+    top: 2rem;
     transform: translateX(-50%);
 }
 
@@ -450,14 +450,14 @@
         overflow: scroll;
     }
     .journey_progress {
-        left: 5%;
+        left: 3%;
         top: 0;
         width: 3px;
         transform: inherit;
         right: inherit;
     }
     .jourSection .descriptionSection {
-        padding: 0 0rem 0 7rem;
+        padding: 0 0rem 0 5rem;
     }
     .active_progress:before {
         width: 40px;
@@ -493,6 +493,9 @@
     .glBox:hover {
         width: 150%;
     }
+    .cardBody {
+        width: 100vh;
+    }
     .countryImg h1 {
         font-size: 1rem;
     }
@@ -500,13 +503,13 @@
         display: none;
     }
     .glBox:hover {
-        width: 600vh;
+        width: 100vh;
     }
     .glBox {
         width: 100%;
     }
     .choice h4 {
-        font-size: 1.1rem;
+        font-size: 1.5rem;
     }
     .mbileHide {
         display: none;
@@ -518,6 +521,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .cardText ul {
+        flex-direction: column;
     }
 }
 
@@ -531,6 +537,9 @@
     }
     .jourSection .imgSection {
         max-width: 70%;
+    }
+    .jourSection .descriptionSection {
+        padding: 0 0rem 0 4rem;
     }
 }
 
@@ -553,7 +562,7 @@
         font-size: 1.4rem;
     }
     .journey_progress {
-        left: 10%;
+        left: 5%;
     }
     .accordianSection::before {
         background-position: 0 105px;

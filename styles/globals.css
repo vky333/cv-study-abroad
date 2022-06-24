@@ -491,7 +491,7 @@ h6 {
     }
     .slideBox02 .journyDescription,
     .slideBox04 .journyDescription {
-        padding: 0 0rem 0 7rem !important;
+        padding: 0 0rem 0 5rem !important;
     }
     .sectionGlobal {
         padding: 2rem 0;
@@ -550,7 +550,12 @@ h6 {
     }
 }
 
-@media(max-width: 500px) {}
+@media(max-width: 500px) {
+    .slideBox02 .journyDescription,
+    .slideBox04 .journyDescription {
+        padding: 0 0rem 0 3rem !important;
+    }
+}
 
 
 /***************** Media Query End ***********/
