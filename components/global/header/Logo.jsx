@@ -6,7 +6,7 @@ export const Logo = () => {
   return (
     <>
     <div className={`${styles.abroadLogo} logobox`}>
-        <Image src="/logos/abroad-Logo.png" width={150} height={80} alt="abroadLogo"/>
+        <Image src="/logos/abroad-Logo.png" width={124} height={66} alt="abroadLogo"/>
         <span className={`${styles.logCom} com`}>com</span>
     </div>    
     </>

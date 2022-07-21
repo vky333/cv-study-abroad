@@ -7,6 +7,7 @@ export const Banner = () => {
     <>
     <section className={`${styles.bannerSection}`}>
         <BannerImage/>
+        
     </section>
     
     </>

@@ -7,15 +7,15 @@ import Image from 'react-bootstrap/Image'
 export const BannerText = (props) =>{
     return(
         <>            
-            <Image className="d-block w-100 zoom-in-zoom-out" width={1765} height={733} src={props.BannerTextCard.banImg} alt="First slide" />
+            <Image className={`${styles.banImage}`} width={1765} height={750} src={props.BannerTextCard.banImg} alt="First slide" />
             <Carousel.Caption className={`${styles.bannerTextCont}`}>
-                <h5>{props.BannerTextCard.h5Text}</h5>
+                {/* <h5>{props.BannerTextCard.h5Text}</h5> */}
                 <h1>{props.BannerTextCard.h1Text}</h1>
                 {/* <div className={`${styles.banerBtnCont}`}>                   
                     <Button variant="primary" size="lg" className={`${styles.enrolBtn}`}>{props.BannerTextCard.BtnOne}</Button>
                 </div> */}
             </Carousel.Caption>
-            <div className='overlay'></div>
+            {/* <div className='overlay'></div> */}
         </>
     )
 }

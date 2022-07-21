@@ -1,8 +1,9 @@
 .headerContainer {
     width: 100%;
-    position: absolute;
-    top: 1.3rem;
+    position: relative;
+    top: 0rem;
     z-index: 20;
+    background: #fff;
 }
 
 .headerBox {
@@ -11,6 +12,8 @@
 
 .abroadLogo {
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .abroadLogo .logCom {
@@ -21,7 +24,7 @@
     justify-content: center;
     transform: rotate(-18deg);
     right: 0;
-    bottom: 1rem;
+    bottom: 0.7rem;
     background-color: #0074d7;
     color: #fff;
     width: 25px;

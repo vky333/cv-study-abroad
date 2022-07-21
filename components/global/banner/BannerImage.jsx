@@ -12,38 +12,31 @@ const BannerImage = () => {
     const bannerContDynamic = [
         {
             id: 0,
-            banImg: "/banner/suggestUniversity/banner1.png",
-            h1Text: "Your skills can determine your career path.",
+            banImg: "/banner/suggestUniversity/banner1.jpg",
+            h1Text: "Your dream to Graduate Internationally starts here ",
             BtnOne: "Explore our programs",
-            h5Text: "Start Learning "
+            h5Text: ""
         },
         {
             id: 1,
-            banImg: "/banner/suggestUniversity/2.jpg",
-            h1Text: "Work Intergrated Degree Program Certified Finance Executive",
+            banImg: "/banner/suggestUniversity/banner2.jpg",
+            h1Text: "Compare your University Options like never before",
             BtnOne: "Explore our programs",
-            h5Text: "Start Learning "
+            h5Text: ""
         },
         {
             id: 2,
-            banImg: "/banner/suggestUniversity/3.jpg",
-            h1Text: "Certificate Program for Undergraduates",
+            banImg: "/banner/suggestUniversity/banner3.jpg",
+            h1Text: "We plan according to your goals and aspirations",
             BtnOne: "Explore our programs",
-            h5Text: "Start Learning "
+            h5Text: ""
         },
         {
             id: 3,
-            banImg: "/banner/suggestUniversity/4.jpg",
-            h1Text: "Work Intergrated Degree Program Certified Finance Executive",
+            banImg: "/banner/suggestUniversity/banner4.jpg",
+            h1Text: "Get Expert Guidance on finding the best destination to study",
             BtnOne: "Explore our programs",
-            h5Text: "Start Learning "
-        },
-        {
-            id: 4,
-            banImg: "/banner/suggestUniversity/5.jpg",
-            h1Text: "Work Intergrated Degree Program Certified Finance Executive",
-            BtnOne: "Explore our programs",
-            h5Text: "Start Learning "
+            h5Text: ""
         }
     ]
 
@@ -55,14 +48,16 @@ const BannerImage = () => {
                     {bannerContDynamic.map(bannercard =>
                         <Carousel.Item key={bannercard.id}>
                             <BannerText BannerTextCard={bannercard} />
+                            <div className='overlay'></div>
                         </Carousel.Item>
                     )}
+                    
                 </Carousel>
                 
 
             </div>
-            <BannerDetailContent activeSlide={activeSlide} />
-            {/* <div className={`${styles.shadow}`}></div> */}
+            {/* <BannerDetailContent activeSlide={activeSlide} /> */}
+           
         </section>
     )
 }

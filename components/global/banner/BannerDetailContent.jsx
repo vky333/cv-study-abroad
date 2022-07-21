@@ -47,16 +47,7 @@ export const BannerDetailContent = (props) => {
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur. </p>
                 </div>
-                <div>
-                    <div className={`${styles.progressBar}`}>
-                        {props.activeSlide === 4 ?
-                            <div className={`${styles.progAnimation}`}></div>
-                            :
-                            null
-                        }
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur.  </p>
-                </div>
+                
             </div>
         </>
     )

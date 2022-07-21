@@ -83,7 +83,7 @@
 }
 
 .glBox:hover {
-    width: 60%;
+    width: 47%;
     transition: ease-in-out 0.5s;
     border: #0d6efd 1px solid;
 }
